@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/login_hint" />
+    
+     <Button
+        android:id="@+id/displayActivityLaunchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       android:layout_below="@+id/registrationButton"
+        android:text="@string/launch_display_activity_hint" 
+        android:onClick="onClick"
+       />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/displayActivityLaunchButton"
+        android:text="First log in to your Instagram account by pressing Login button. After that, return and click on second button to view #selfie images for your account. \n©Rohit Jawa. All rights reserved." />
+
+</RelativeLayout>

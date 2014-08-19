@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Instagram Selfies by RJ</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login">Login To Instagram</string>
+    <string name="instagram_id">277ae746166b4239bedb9258d7d9c575</string>
+    <string name="instagram_secret">838b331aca1d470ba2d9a60af0fa201a</string>
+    <string name="APP_ID">449882188366752</string>
+    <string name="callbackurl">http://localhost</string>
+    <string name="title_activity_display">Displaying images with hashtag #selfie</string>
+    <string name="action_settings">Settings</string>
+    <string name="launch_display_activity_hint">Launch display activity for viewing images with hashtag #selfie</string>
+    <string name="login_hint">Login To Instagram</string>
+
+</resources>
